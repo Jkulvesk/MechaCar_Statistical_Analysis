@@ -3,11 +3,11 @@
 ## Linear Regression to Predict MPG
 #### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
  - The p-value determines how significant the variables are to the MPG values. Ideally, the p-value should be .05 or less. None of the variables against MPG met that threshold. In looking at all of the values, vehicle weight (8% probability it is random) and AWD (18% probability it is random) variables are the most significant variables. 
----Include screenshot
+![Screenshot](https://user-images.githubusercontent.com/72076683/106369129-7ea26600-6314-11eb-8cbb-2e2e512901b8.png)
 
 #### Is the slope of the linear model considered to be zero? Why or why not?
 - The coefficients determine the slope. In determining the coefficents, vehicle weight is the closest to a zero slope. Other variables have a much stronger slope or negative slope. See screenshot below. 
----include screenshot
+![Screenshot](https://user-images.githubusercontent.com/72076683/106369147-98dc4400-6314-11eb-8968-3f5105c7193e.png)
 
 #### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
@@ -16,7 +16,11 @@
 ## Summary Statistics on Suspension Coils
 Current design specifications for the MechaCar suspension coils dictacte that the variance of the suspension coils must not exceed 100 PSI (pounds per square inch). According to the current manufacturing data, overall, the variance is 62 PSI, however, if you look at the variance by lot, LOT 3 is over the 100 PSI variance threshold, at 170 PSI and it is likely this lot should be inspected and possibly rejected.
 
-----Insert screenshots
+Summary Statistics:
+![Screenshot](https://user-images.githubusercontent.com/72076683/106369165-b7423f80-6314-11eb-974e-27c48c09792e.png)
+
+Statistics by Lot:
+![Screenshot](https://user-images.githubusercontent.com/72076683/106369157-aa255080-6314-11eb-8d1a-c7d4a2ec5581.png)
 
 ## T-Tests on Suspension Coils
 This analysis looked at whether the all the lots were different from the mean PSI of 1500. The t-test for the overall manufacturing data showed the p-value was at .06, which is not significant enough to assume that the means are statistically similar.
@@ -25,7 +29,7 @@ In looking at each of the lots:
  - Lot1: This lot has a p-value of 1 which is much higher than .05. In this case, the means are not statistically similar.
  - Lot2: This lot has a p-value of .6, meaning the means are not statistically similar.
  - Lot3: This lot has a p-value of .04 which is statistically significant to conclude that the mean of this lot is similar to the mean PSI of 1500. See screenshot below for all results.
------insert screenshots
+![Screenshot](https://user-images.githubusercontent.com/72076683/106369179-c6c18880-6314-11eb-8be5-a3e3ae2e68b7.png)
 
 ## Study Design: MechaCar vs Competition
 
